@@ -1,0 +1,19 @@
+#This is a very simple Python calculator
+#this calculator is not ready to use
+a=int(input("Enter the First Number: "))
+b=input("Enter an Arithmetic operator: ")
+c=int(input("Enter the Second number:))
+if b=='*':
+        print(a*b)
+if b=='/':
+        print(a/b)
+elif b=='+':
+        print(a+b)
+elif b=='-'
+        print(a-b)
+else:
+        print("Enter a valid Arithmetic operation")
+        print("/nArithmetic operations are '*','/','+','-'/n")
+print("/nDo you want to continue the calculation?")
+x=input("Yes/No")
+if x=='Yes':
